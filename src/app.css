@@ -1,0 +1,60 @@
+.app-logo {
+  animation: app-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.app-header {
+  background-color: #222;
+  height: 150px;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.app-title {
+  font-size: 1.5em;
+}
+
+.examples {
+  text-align: center;
+}
+
+.todo input {
+	width: 400px;
+	height: 40px;
+	font-size: 24px;
+}
+
+.todo .add-item {
+	display: block;
+	margin: 20px auto;
+	width: 100px;
+	height: 30px;
+	font-size: 24px;
+	padding: 0 8px;
+}
+
+.todo ul {
+	display: inline-block;
+	padding: 0;
+	margin: 0 auto;
+	list-style: none;
+	text-align: left;
+}
+
+.todo ul li {
+	font-size: 24px;
+	margin-top: 10px;
+}
+
+.todo .delete-item {
+	width: 40px;
+	height: 30px;
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+@keyframes app-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
